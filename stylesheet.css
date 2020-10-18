@@ -1,0 +1,91 @@
+body {
+  font-family:"Avenir Next";
+  background-color:#ffb6c1;
+  color:white;
+  margin:0;
+}
+
+.header {
+  background-color:#ffc0cb;
+  height:120px;
+  padding:30px 20px;
+}
+
+.header-logo {
+  text-decoration:none;
+  color:navy;
+  font-size:30px;
+}
+
+.header-list li {
+  color:maroon;
+  font-size:20px;
+  float:left;
+}
+
+img {
+  text-align:center;
+  width:250px;
+}
+
+.container {
+  display:grid;
+  grid-template-columns:60% auto;
+  padding:40px 25px;
+  border: 5px solid  lavender;
+}
+
+h1 {
+  color:navy;
+  font-size:30px;
+}
+
+h2 {
+  color:navy;
+  font-size:30px;
+  text-align:center;
+}
+
+p {
+  color:white;
+  font-size:20px;
+}
+
+ul {
+  display:grid;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  grid-template-columns:repeat(3,auto);
+  grid-template-columns:repeat(2,auto);
+}
+
+ul li {
+  padding:20px;
+  color:white;
+  border: 5px solid lavender;
+  float:left;
+  font-size:20px;
+}
+
+ul li span {
+  display:block;
+  font-size:25px;
+  margin-bottom:10px;
+  color:navy;
+}
+
+.footer {
+  background-color:#ffc0cb;
+  height:140px;
+  color:maroon;
+  font-size:20px;
+  font-family:"Avenir Next";
+}
+
+h3 {
+  color:maroon;
+  font-size:20px;
+  text-align:left;
+  padding:30px 20px;
+}
