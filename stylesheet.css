@@ -2,13 +2,14 @@ body {
   font-family:"Avenir Next";
   background-color:#ffb6c1;
   color:white;
-  margin:0;
+  margin:0px;
 }
 
 .header {
   background-color:#ffc0cb;
-  height:120px;
+  height:140px;
   padding:30px 20px;
+  margin:0px;
 }
 
 .header-logo {
@@ -19,7 +20,7 @@ body {
 
 .header-list li {
   color:maroon;
-  font-size:20px;
+  font-size:15px;
   float:left;
 }
 
@@ -32,12 +33,13 @@ img {
   display:grid;
   grid-template-columns:60% auto;
   padding:40px 25px;
-  border:3px solid  lavender;
+  border:2px solid  lavender;
 }
 
 h1 {
   color:navy;
   font-size:30px;
+  text-align:center;
 }
 
 h2 {
@@ -54,8 +56,8 @@ p {
 ul {
   display:grid;
   list-style-type:none;
-  margin:0;
-  padding:0;
+  margin:0px;
+  padding:0px;
   grid-template-columns:repeat(3,auto);
   grid-template-columns:repeat(2,auto);
 }
@@ -77,7 +79,7 @@ ul li span {
 
 .footer {
   background-color:#ffc0cb;
-  height:100px;
+  height:50px;
   color:maroon;
   font-size:20px;
   font-family:"Avenir Next";
